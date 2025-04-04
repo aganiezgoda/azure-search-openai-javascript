@@ -16,7 +16,7 @@ export const SettingsButton = ({ className, onClick }: Props) => {
       data-testid="button__developer-settings"
     >
       <Settings24Regular />
-      <Text>{'Developer settings'}</Text>
+      <Text>{'Ustawienia'}</Text>
     </button>
   );
 };

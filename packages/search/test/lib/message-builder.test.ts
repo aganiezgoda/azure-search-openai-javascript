@@ -3,7 +3,7 @@ import { MessageBuilder } from '../../src/lib/message-builder.js';
 
 test('MessageBuilder', async (t) => {
   const systemContent = 'Welcome to the chat!';
-  const chatgptModel = 'gpt-4o-mini';
+  const chatgptModel = 'gpt-4o';
   const messageBuilder = new MessageBuilder(systemContent, chatgptModel);
 
   await t.test('constructor', (t) => {

@@ -61,8 +61,8 @@ test.describe('default', () => {
 
   test('ask interaction', async ({ page }) => {
     await page.goto('/');
-    const chatLink = page.getByRole('link', { name: 'Chat' });
-    const askLink = page.getByRole('link', { name: 'Ask a question' });
+    const chatLink = page.getByRole('link', { name: 'Czatuj' });
+    const askLink = page.getByRole('link', { name: 'Zadaj pytanie' });
 
     await expect(chatLink).toHaveAttribute('aria-current', 'page');
     await expect(askLink).not.toHaveAttribute('aria-current');

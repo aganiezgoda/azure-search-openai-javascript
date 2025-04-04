@@ -16,7 +16,7 @@ const AppPath = path.join(__dirname, '..', 'src', 'app.ts');
 // needed for testing the application
 async function config() {
   process.env.AZURE_OPENAI_CHATGPT_DEPLOYMENT = 'chat';
-  process.env.AZURE_OPENAI_CHATGPT_MODEL = 'gpt-4o-mini';
+  process.env.AZURE_OPENAI_CHATGPT_MODEL = 'gpt-4o';
   process.env.AZURE_OPENAI_EMBEDDING_DEPLOYMENT = 'embeddings';
   process.env.AZURE_OPENAI_EMBEDDING_MODEL = '';
   process.env.AZURE_OPENAI_SERVICE = 'https://example.com';

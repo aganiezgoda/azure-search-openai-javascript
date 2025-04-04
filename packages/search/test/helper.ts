@@ -17,7 +17,7 @@ const APP_PATH = path.join(__dirname, '../src/app.ts');
 async function config() {
   // Use fixed values when .env file is not present
   process.env.AZURE_OPENAI_CHATGPT_DEPLOYMENT = 'chat';
-  process.env.AZURE_OPENAI_CHATGPT_MODEL = 'gpt-4o-mini';
+  process.env.AZURE_OPENAI_CHATGPT_MODEL = 'gpt-4o';
   process.env.AZURE_OPENAI_EMBEDDING_DEPLOYMENT = 'embedding';
   process.env.AZURE_OPENAI_EMBEDDING_MODEL = '';
   process.env.AZURE_OPENAI_SERVICE = 'cog-x2y5k2ccncqou';
