@@ -57,7 +57,7 @@
       "value": "${AZURE_OPENAI_CHATGPT_MODEL=gpt-4o}"
     },
     "chatGptModelVersion": {
-      "value": "${AZURE_OPENAI_CHATGPT_MODEL_VERSION=2024-07-18}"
+      "value": "${AZURE_OPENAI_CHATGPT_MODEL_VERSION=2024-08-06}"
     },
     "chatGptDeploymentName": {
       "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT=chat}"
